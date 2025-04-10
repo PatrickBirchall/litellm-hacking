@@ -8,6 +8,7 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
+app.config['APPLICATION_ROOT'] = '/content/4e2b4f84-eeee-4bc5-887e-8e1a2a900c10'
 # Configuration
 TARGET_PORT = 4000  # Change this to the port of your target service
 TARGET_HOST = '127.0.0.1'  # Change if needed
